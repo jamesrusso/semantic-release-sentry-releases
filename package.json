@@ -10,7 +10,6 @@
     "format:check": "prettier --check '{src,test}/**/*.{js,ts}' '*.{json,md}' '.prettierrc' '.{github,vscode}/**/*'",
     "ts-compile-check": "tsc -p tsconfig.json --noEmit",
     "test": "nyc mocha test",
-    "postinstall": "husky install",
     "prepublishOnly": "pinst --disable",
     "postpublish": "pinst --enable"
   },
